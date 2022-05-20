@@ -3,7 +3,9 @@
 
     <h1>Delivery address</h1>
 
-    <div class="space-y-4">
+    <div class="text-xs text-under text-gray-400 cursor-pointer" wire:click="previousStep" >⬅ Previous</div>
+
+    <div class="space-y-4 mt-4">
         <x-input name="name" />
         <x-input name="addressLine" />
         <x-input name="zip" />

@@ -704,6 +704,9 @@ select {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
 .block {
   display: block;
 }
@@ -718,6 +721,9 @@ select {
 }
 .max-w-7xl {
   max-width: 80rem;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 .items-center {
   align-items: center;
@@ -824,6 +830,10 @@ select {
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
