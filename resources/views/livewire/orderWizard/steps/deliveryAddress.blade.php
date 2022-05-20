@@ -8,7 +8,7 @@
         <x-input name="addressLine" />
         <x-input name="zip" />
         <x-input name="city" />
+        <x-button label="Submit" wire:click="submit" />
     </div>
 
-    <x-button label="Submit" wire:click="submit" />
 </div>
