@@ -6,10 +6,10 @@ use Spatie\LivewireWizard\Components\StepComponent;
 
 class CartStepComponent extends StepComponent
 {
-    public int $amount = 1;
+    public $amount = 1;
 
     public array $rules = [
-        'amount'=> 'numeric',
+        'amount'=> ['numeric', 'min:1', 'max:5'],
     ];
 
     public function submit()
