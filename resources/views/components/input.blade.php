@@ -1,9 +1,9 @@
 <div>
     <div>
-        <label for="{{ $name }}">{{ \Illuminate\Support\Str::of($name)->kebab()->replace('-', ' ')->ucfirst() }}</label>
+        <label class="text-xs" for="{{ $name }}">{{ \Illuminate\Support\Str::of($name)->kebab()->replace('-', ' ')->ucfirst() }}</label>
     </div>
 
-    <div class="text-xs">
+    <div>
         <input type="text" wire:model="{{ $name }}">
     </div>
 

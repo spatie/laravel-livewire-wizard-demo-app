@@ -554,7 +554,7 @@ select {
   outline: 1px solid ButtonText;
   outline: 1px auto -webkit-focus-ring-color;
 }
-    .h1 {
+    h1 {
   padding-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: 700;
@@ -564,7 +564,7 @@ select {
 }
     @media (min-width: 640px) {
 
-  .h1 {
+  h1 {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

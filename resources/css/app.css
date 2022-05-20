@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    .h1 {
+    h1 {
         @apply text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate pb-4
     }
 }
