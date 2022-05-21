@@ -9,8 +9,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
-        "ext-pcntl": "*",
-        "ext-sockets": "*",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.2",
         "laravel/sanctum": "^2.14.1",
@@ -19,9 +17,7 @@
         "pestphp/pest": "^1.21",
         "spatie/fork": "^1.1",
         "spatie/invade": "^1.0",
-        "spatie/laravel-livewire-wizard": "dev-main",
-        "spatie/laravel-ray": "^1.29",
-        "spatie/once": "^3.0"
+        "spatie/laravel-livewire-wizard": "^1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
