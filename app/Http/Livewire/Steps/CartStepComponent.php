@@ -28,8 +28,6 @@ class CartStepComponent extends StepComponent
 
     public function render()
     {
-        ray('rendering first step');
-
         return view('livewire.orderWizard.steps.cart');
     }
 }
