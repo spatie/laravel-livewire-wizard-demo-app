@@ -5,7 +5,7 @@ This repo contains a Laravel app to showcase the [spatie/laravel-livewizard pack
 ## Usage
 
 1. Clone the repo
-2. Copy `env.example` to `.env`
+2. Copy `.env.example` to `.env`
 3. Run `composer install`
 4. Run `php artisan key:generate`
 5. Run `yarn` and `yarn run dev` (or the npm equivalents)
