@@ -7,13 +7,13 @@ use Spatie\LivewireWizard\Components\StepComponent;
 class DeliveryAddressStepComponent extends StepComponent
 {
     public string $name = '';
-    public string $addressLine = '';
+    public string $street = '';
     public string $zip = '';
     public string $city = '';
 
     public array $rules = [
         'name'=> 'required',
-        'addressLine'=> 'required',
+        'street'=> 'required',
         'zip'=> 'required',
         'city'=> 'required',
     ];

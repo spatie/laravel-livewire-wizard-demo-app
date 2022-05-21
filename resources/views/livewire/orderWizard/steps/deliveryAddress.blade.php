@@ -7,7 +7,7 @@
 
     <div class="space-y-4 mt-4">
         <x-input name="name" />
-        <x-input name="addressLine" />
+        <x-input name="street" />
         <x-input name="zip" />
         <x-input name="city" />
         <x-button label="Submit" wire:click="submit" />

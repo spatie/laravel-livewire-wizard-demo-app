@@ -8,7 +8,10 @@ class ConfirmStepComponent extends StepComponent
 {
     public function confirm()
     {
-        // order
+        $amount = $this->state()->amount();
+        $addres = $this->state()->deliveryAddress();
+
+        // here you should store the amount and address somehow
 
         $this->redirect(route('order-confirmed'));
     }
@@ -22,6 +25,9 @@ class ConfirmStepComponent extends StepComponent
 
     public function render()
     {
-        return view('livewire.orderWizard.steps.confirm');
+        return view('livewire.orderWizard.steps.confirm', [
+            'amount' => $this->state()->amount(),
+            'address' => $this->state()->deliveryAddress(),
+        ]);
     }
 }
