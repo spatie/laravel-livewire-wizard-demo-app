@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e64e938247c9355f35b76e8a4da8deb",
+    "content-hash": "d3a22f0aee6c4c3e3e5f94cbc34ac860",
     "packages": [
         {
             "name": "brick/math",
@@ -5370,10 +5370,16 @@
         {
             "name": "spatie/laravel-livewire-wizard",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-livewire-wizard.git",
+                "reference": "d13a9837ae36a27f74727aa73aeeece9c7f92d87"
+            },
             "dist": {
-                "type": "path",
-                "url": "../laravel-livewire-wizard",
-                "reference": "610b9a2cec3ea4991aa4a3b5b7f5b3e8b225aac3"
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-livewire-wizard/zipball/d13a9837ae36a27f74727aa73aeeece9c7f92d87",
+                "reference": "d13a9837ae36a27f74727aa73aeeece9c7f92d87",
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^9.0",
@@ -5394,6 +5400,7 @@
                 "spatie/pest-plugin-snapshots": "^1.1",
                 "spatie/phpunit-snapshot-assertions": "^4.2.11"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -5407,22 +5414,7 @@
                     "Spatie\\LivewireWizard\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Spatie\\LivewireWizard\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "analyse": [
-                    "vendor/bin/phpstan analyse"
-                ],
-                "test": [
-                    "vendor/bin/pest"
-                ],
-                "test-coverage": [
-                    "vendor/bin/pest --coverage"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5445,9 +5437,10 @@
                 "laravel-livewire-wizard",
                 "spatie"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/spatie/laravel-livewire-wizard/tree/main"
+            },
+            "time": "2022-05-21T10:51:01+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",
