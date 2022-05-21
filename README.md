@@ -13,3 +13,5 @@ This repo contains a Laravel app to showcase the [spatie/laravel-livewizard pack
 
 You'll see a tree step wizard for a simple checkout flow.
 
+![screenshot](https://github.com/spatie/laravel-livewire-wizard-demo-app/blob/main/docs/screenshot.png?raw=true)
+
