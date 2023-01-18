@@ -9,7 +9,7 @@ class ConfirmStepComponent extends StepComponent
     public function confirm()
     {
         $amount = $this->state()->amount();
-        $addres = $this->state()->deliveryAddress();
+        $address = $this->state()->deliveryAddress();
 
         // here you should store the amount and address somehow
 
