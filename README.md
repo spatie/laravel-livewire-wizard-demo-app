@@ -1,6 +1,6 @@
 # A demo of spatie/laravel-livewire-wizard
 
-This repo contains a Laravel app to showcase the [spatie/laravel-livewizard package](https://spatie.be/docs/laravel-livewire-wizard).
+This repo contains a Laravel app to showcase the [spatie/laravel-livewire-wizard package](https://spatie.be/docs/laravel-livewire-wizard).
 
 ## Usage
 
