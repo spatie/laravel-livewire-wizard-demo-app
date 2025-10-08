@@ -2,10 +2,10 @@
 
 namespace App\Providers;
 
-use App\Http\Livewire\OrderWizardComponent;
-use App\Http\Livewire\Steps\CartStepComponent;
-use App\Http\Livewire\Steps\ConfirmStepComponent;
-use App\Http\Livewire\Steps\DeliveryAddressStepComponent;
+use App\Livewire\OrderWizardComponent;
+use App\Livewire\Steps\CartStepComponent;
+use App\Livewire\Steps\ConfirmStepComponent;
+use App\Livewire\Steps\DeliveryAddressStepComponent;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
